@@ -1,0 +1,106 @@
+/*this is my little element that is applied to the 
+whole webpage. I started by eliminating the margins
+and padding. This helps me focus my mind and helps me
+to avoid stupid mistakes later because I forgot about
+the defaults */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Rest of code below */
+
+#showcase ul {
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+li a {
+    display: block;
+    border: solid 1px #000;
+    border-radius: 10px;
+    width: 160px;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #eee;
+    color: #000;
+    margin: 2px;
+}
+
+li a:hover {
+    background-color: #1f2937;
+    color: white;
+}
+
+li {
+    text-align: center;
+    
+}
+
+#showcase img {
+    width: 75px;
+    height: auto;
+    padding: 0px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: solid 2px black;
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    position: sticky; top: 0;
+}
+
+.headgroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #eee;
+}
+
+#infobox {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 12px;
+    border: #000 2px solid;
+    border-radius: 10px;
+}
+
+#infobox h2 {
+    font-weight: 900;
+    font-size: 36px;
+    text-shadow: #000 2px 2px;
+    margin:  0px;
+    padding: 8px;
+}
+
+#infobox h3 {
+    font-weight: 100;
+    text-shadow: #000 2px 2px;
+    margin:  0px;
+    padding: 8px;
+}
+
+.headgroup img {
+    height: auto;
+    width: 500px;
+    margin: 25px;
+    border: solid #000 2px;
+    border-radius: 10px;
+}
+
+.underline {
+    border-bottom: #000 solid 4px;
+}
